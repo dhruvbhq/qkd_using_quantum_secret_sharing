@@ -12,18 +12,22 @@ A.3) qkd_using_qss_noiseless.py (contains main())
 
 
 C) Files needed for Eavesdropping case
+
 C.1) All files in A)
 
-C.2) qkd_eavesdropping_2.py (contains main())
+C.2) qkd_using_qss_eavesdrop.py (contains main())
 
 Sample output transcripts of the programs have also been uploaded for noiseless and eavesdropping cases (single and multi-experiment runs).
 
 #### Brief Summary:
 1. This program simulates the Quantum Key Distribution protocol using Quantum Secret Sharing developed in the paper: 
-"Two-Party Secret Key Distribution via a Modified Quantum Secret Sharing Protocol" (DOI: 10.1364/OE.23.007300 (OSA)) 
-Link: https://www.osapublishing.org/oe/abstract.cfm?uri=oe-23-6-7300
+"Two-Party Secret Key Distribution via a Modified Quantum Secret Sharing Protocol" 
 
-2.The basic experiment is noiseless, but existing base classes can be easily overridden (OOP) to implement custom noise models/eavesdropping.
+   (DOI: 10.1364/OE.23.007300 (OSA)) 
+
+   Link: https://www.osapublishing.org/oe/abstract.cfm?uri=oe-23-6-7300
+
+2. The basic experiment is noiseless, but existing base classes can be easily overridden (OOP) to implement custom noise models/eavesdropping.
 
 3. The functionality to validate the key by comparing the first half of the key for bit errors has been implemented.
 
